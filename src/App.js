@@ -57,7 +57,7 @@ export default class App extends Component {
             return (
               <div>
                 {/* Fajr */}
-                <div style={{ justifyContent: 'center', alignItems: 'center', marginTop: 15 }}>
+                <div style={{ justifyContent: 'center', alignItems: 'center', marginTop: 15, marginTop: 60 }}>
                   <div style={{ display: 'flex', justifyContent: 'center' }}>
                     <div style={{}} className="prayerTitle">
                       Fajr:
