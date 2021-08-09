@@ -23,7 +23,88 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.prayerTime{
+  background-color: #94DBBA;
+  color: black;
+  width: 25%;
+  height: 35px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px
+  
 
+}
+.prayerTitle{
+  background-color: #36594B;
+  color: white;
+  width: 20%;
+  height: 35px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px
+
+
+}
+
+.iqamahTime{
+  background-color: #0b4846;
+  color: rgb(255, 255, 255);
+  width: 25%;
+  height: 35px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px
+  
+
+}
+.iqamahTitle{
+  background-color: #0b4846;
+  color: white;
+  width: 20%;
+  height: 35px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px
+
+
+}
+.sunriseTime{
+  background-color: #b63535;
+  color: rgb(255, 255, 255);
+  width: 25%;
+  height: 35px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px
+  
+
+}
+.sunriseTitle{
+  background-color: #b63535;
+  color: white;
+  width: 20%;
+  height: 35px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px
+
+
+}
+@media only screen and (max-width: 900px) {
+  .sunriseTitle, .iqamahTitle, .prayerTitle{
+    width: 30%;
+  }
+  .sunriseTime, .iqamahTime, .prayerTime{
+    width: 35%;
+  }
+
+}
 .App-link {
   color: #61dafb;
 }
