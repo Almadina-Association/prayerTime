@@ -7,7 +7,7 @@ export default class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      prayerTimeList: [,]
+      prayerTimeList: []
     }
   }
 
@@ -32,6 +32,7 @@ export default class App extends Component {
         const salatTime = res.data;
         this.setState({ prayerTimeList: salatTime })
         console.log(this.state.prayerTimeList[0]);
+        console.log(this.state.prayerTimeList);
         // console.log(">>>>>>>>>>>>>>>>>>>>>>>>>>>" + salatTime[0].fajrna);
 
       })
@@ -43,6 +44,15 @@ export default class App extends Component {
         <div>
         </div>
         {
+          this.state.prayerTimeList.length == 0
+          ?
+          <div style={{ display: 'flex', justifyContent: 'center' }}>
+            <h2>
+            Prayer time hasn't been updated for this month yet
+
+            </h2>
+          </div>
+          :
           this.state.prayerTimeList.map((item, index) => {
             return (
               <div>
