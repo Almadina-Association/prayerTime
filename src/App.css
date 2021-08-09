@@ -99,9 +99,18 @@
 @media only screen and (max-width: 900px) {
   .sunriseTitle, .iqamahTitle, .prayerTitle{
     width: 30%;
+    height: 25px;
+      padding: 5px;
+      font-size: 15px;
+
   }
   .sunriseTime, .iqamahTime, .prayerTime{
     width: 35%;
+    height: 25px;
+      padding: 5px;
+      font-size: 15px;
+
+
   }
 
 }
