@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/prayerTime/static/css/main.3be391f3.chunk.css",
-    "main.js": "/prayerTime/static/js/main.be568851.chunk.js",
-    "main.js.map": "/prayerTime/static/js/main.be568851.chunk.js.map",
+    "main.css": "/prayerTime/static/css/main.a9724585.chunk.css",
+    "main.js": "/prayerTime/static/js/main.1147c1b7.chunk.js",
+    "main.js.map": "/prayerTime/static/js/main.1147c1b7.chunk.js.map",
     "runtime-main.js": "/prayerTime/static/js/runtime-main.8e417631.js",
     "runtime-main.js.map": "/prayerTime/static/js/runtime-main.8e417631.js.map",
     "static/js/2.07c82657.chunk.js": "/prayerTime/static/js/2.07c82657.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.70e98c10.chunk.js": "/prayerTime/static/js/3.70e98c10.chunk.js",
     "static/js/3.70e98c10.chunk.js.map": "/prayerTime/static/js/3.70e98c10.chunk.js.map",
     "index.html": "/prayerTime/index.html",
-    "static/css/main.3be391f3.chunk.css.map": "/prayerTime/static/css/main.3be391f3.chunk.css.map",
+    "static/css/main.a9724585.chunk.css.map": "/prayerTime/static/css/main.a9724585.chunk.css.map",
     "static/js/2.07c82657.chunk.js.LICENSE.txt": "/prayerTime/static/js/2.07c82657.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8e417631.js",
     "static/js/2.07c82657.chunk.js",
-    "static/css/main.3be391f3.chunk.css",
-    "static/js/main.be568851.chunk.js"
+    "static/css/main.a9724585.chunk.css",
+    "static/js/main.1147c1b7.chunk.js"
   ]
 }
