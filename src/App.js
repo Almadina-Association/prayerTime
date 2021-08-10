@@ -12,6 +12,7 @@ export default class App extends Component {
   }
 
 
+
   componentDidMount() {
     var date = new Date();
     var day = date.getDate();
@@ -39,9 +40,14 @@ export default class App extends Component {
 
   }
   render() {
+    const date = new Date();
+
+    const time = date.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true });
+
     return (
       <div>
         <div>
+          {/* {time} */}
         </div>
         {
           this.state.prayerTimeList.length == 0

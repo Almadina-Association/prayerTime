@@ -49,8 +49,8 @@
 }
 
 .iqamahTime{
-  background-color: #0b4846;
-  color: rgb(255, 255, 255);
+  background-color: #ffc485;
+  color: rgb(0, 0, 0);
   width: 25%;
   height: 35px;
   text-align: center;
@@ -61,8 +61,8 @@
 
 }
 .iqamahTitle{
-  background-color: #0b4846;
-  color: white;
+  background-color: #bcd6c3;
+  color: black;
   width: 20%;
   height: 35px;
   text-align: center;
